@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KKOOMING</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="images/logo.png" alt="Logo"></div>
+            <ul>
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#gallery">照片墙</a></li>
+                <li><a href="#social-media">社交媒体</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home" class="welcome">
+            <div class="welcome-background"></div>
+            <div class="welcome-content">
+                <h1>KKOOMING</h1>
+                <p>你的宝宝</p>
+                <a href="#about" class="cta-button">想了解我吗？</a>
+            </div>
+        </section>
+
+
+        <section id="about" class="intro">
+            <div class="container">
+                <h2>宝宝窝的自述</h2>
+                <div class="about-content"
+                    <img src="images/profile-photo.jpg" alt="[你的名字]" class="profile-photo">
+                    <p>小小南梁一枚</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="gallery" class="gallery-section">
+            <div class="container">
+                <h2>本人爆照</h2>
+                <div class="photo-grid" id="photoGrid">
+
+                    <!-- 照片将通过 JavaScript 动态加载 -->
+
+                </div>
+            </div>
+        </section>
+
+
+        <section id="social-media" class="social-media-section">
+            <div class="container">
+                <h2>联系宝宝</h2>
+                <div class="social-media-grid">
+
+                    <a href="https://space.bilibili.com/your-bilibili-id" target="_blank" class="social-media-item">
+
+                        <div class="icon-wrapper bilibili-icon">
+
+                            <img src="images/bilibili-logo.png" alt="哔哩哔哩">
+
+                        </div>
+                    </a>
+
+
+                    <a href="https://www.douyin.com/user/your-douyin-id" target="_blank" class="social-media-item">
+
+                        <div class="icon-wrapper douyin-icon">
+
+                            <img src="images/douyin-logo.png" alt="抖音">
+
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 KKOOMING. All rights reserved.</p>
+            <div class="social-media">
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
